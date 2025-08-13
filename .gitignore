@@ -1,0 +1,40 @@
+# Visual Studio geçici dosyaları, yapı klasörleri
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+# Kullanıcı ayar dosyaları
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Derleme çıktıları
+*.exe
+*.dll
+*.pdb
+*.cache
+*.ilk
+*.log
+*.tmp
+*.vshost.*
+
+# NuGet paketleri
+*.nupkg
+packages/
+*.snupkg
+
+# Visual Studio Code ayarları
+.vscode/
+
+# Rider ayarları
+.idea/
+
+# Yayın paketleri
+publish/
